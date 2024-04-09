@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  height: 100vh;
+  background-color: aliceblue;
 }
 
 .App-logo {
@@ -35,4 +37,18 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+button {
+  cursor: pointer;
+}
+
+.next-button {
+  width: 20vw;
+  background-color: dodgerblue;
+  height: 5vh;
+  border-radius: 10px;
+  color: white;
+  font-size: x-large;
+  font-weight: 900;
 }

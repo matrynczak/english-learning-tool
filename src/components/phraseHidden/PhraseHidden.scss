@@ -1,0 +1,59 @@
+.hidden-word {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    flex-wrap: wrap;
+    height: 20vh;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    background-color: black;
+    color: white;
+    font-size: large;
+}
+
+.hidden {
+    display: none;
+}
+
+.letter {
+    cursor: pointer;
+}
+
+.letter-button {
+    width: 20vw;
+    height: 5vh;
+    background-color: blueviolet;
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.show-word-button {
+    width: 20vw;
+    height: 5vh;
+    background-color: rgb(21, 103, 20);
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.buttons-section {
+    display: flex;
+    justify-content: center;
+    gap: 5vw;
+}
+
+.shown-word {
+    height: 15vh;
+    font-size: xx-large;
+    font-weight: bold;
+    margin-top: 10vh;
+    background-color: cadetblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
